@@ -19,8 +19,19 @@
 
     <footer>
         Footer content goes here.
+        <div id="date-time"></div>
     </footer>
 
     <script src="quote.js"></script>
+    <script>
+        function updateDateTime() {
+            const dateTime = new Date();
+            const formattedDateTime = dateTime.toLocaleString('en-GB', { dateStyle: 'full', timeStyle: 'long' });
+            document.getElementById('date-time').textContent = formattedDateTime;
+        }
+
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+    </script>
 </body>
 </html>
