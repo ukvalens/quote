@@ -1,34 +1,65 @@
-h2{
-    background-color: blue;
-    width: 200px;
-    height: 30px;
-    margin-left: 500px;
-    margin-top: 50px;
-    border-radius: 5px;
-    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f4f4f4;
 }
+
+h2 {
+    background-color: blue;
+    color: white;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
 #quote {
     color: rgb(0, 0, 0);
-    margin-top: 80px;
-
-}
-#generateButton{
-    background-color:red;
-    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 1.2em;
 }
 
-#body{
-    text-align: center;
+#generateButton {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generateButton:hover {
+    background-color: darkred;
+}
+
+#pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#pictures img {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
     padding: 10px 0;
     position: fixed;
-    margin-left: 450px;
-    bottom: 450px;
-    width: 350px;
-    border-radius: 8cap;
-  }
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
