@@ -328,11 +328,9 @@ const quotes = [
 "If people like you, they'll listen to you, but if they trust you, they'll do business with you. — Zig Ziglar ", 
 "The only way around is through. — Robert Frost",  
 "You only have to do a few things right in your life so long as you don’t do too many things wrong. — Warren Buffett ", 
-<<<<<<< HEAD
 "Innovation is saying no to a thousand things. — Steve Jobs  ", " The computer was born to solve problems that did not exist before. – Bill Gates 💻",
 " Technology is best when it brings people together. – Matt Mullenweg 🌍",
 " It has become appallingly obvious that our technology has exceeded our humanity. –  Albert Einstein 🤖",
-
 " The real problem is not whether machines think but whether men do. – B.F. Skinner 🧠",
 " Innovation is the ability to see change as an opportunity – not a threat. – Steve Jobs 💡",
 " Computers are incredibly fast, accurate, and stupid; humans are incredibly slow, inaccurate, and brilliant; the marriage of the two is a force beyond calculation. – Albert Einstein 💻💡",
@@ -440,7 +438,6 @@ const quotes = [
 " Do one thing every day that scares you. – Eleanor Roosevelt 😨",
 " Your time is limited, don’t waste it living someone else’s life. – Steve Jobs ⏳",
 " Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle. – Christian D. Larson 💪",
-
 "Innovation is saying no to a thousand things. — Steve Jobs  ",
  
   ];
