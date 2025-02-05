@@ -63,3 +63,7 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+#date-time {
+    margin-top: 10px;
+}
